@@ -14,6 +14,7 @@ endereco VARCHAR(50) null
 );
 
 SELECT * FROM Pupil,
+
 insert into Pupil (id, nome, matricula, email, endereco, telefone) values
 (01, 'João Carlos', 1234, 'Jcarlos@gmail.com', 'Rua 13 de maio', '(11)7825-4489');
 

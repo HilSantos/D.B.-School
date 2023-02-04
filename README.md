@@ -1,10 +1,15 @@
 # D.B.-School
 
 CREATE TABLE Pupil (
+
 PRIMARY KEY (ID_INT),
+
 id_int not null auto_increment,
+
 nome VARCHAR(50) not null,
+
 e-mail VARCHAR(35) not null,
+
 endereco VARCHAR(50) null
 );
 
